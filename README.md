@@ -117,3 +117,4 @@ body:
         Tip: You can attach images or files by clicking this area to highlight it and then dragging files in.
     validations:
       required: false
+  
