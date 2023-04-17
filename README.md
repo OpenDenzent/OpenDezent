@@ -11,7 +11,7 @@ Once a funding goal is reached, the funds are released to the researcher, who is
 # Getting Started
 To get started with openDenzent, you'll need to have some familiarity with Ethereum and smart contract development using Hardhat. You'll also need to have the following tools installed:
 
-## Vite: A fast and minimalist web framework for building JavaScript applications
+ Vite: A fast and minimalist web framework for building JavaScript applications
 MetaMask: A browser extension for interacting with Ethereum and Polygon networks
 Once you have these tools installed, you can clone the openDenzent repository and run the following commands to install the required packages:
 
@@ -35,7 +35,8 @@ You can then run the following command to compile and deploy the smart contracts
 arduino
 Copy code
 npm run deploy:mumbai
-Contributing
+
+# Contributing
 openDenzent is an open-source project, and contributions are welcome. If you'd like to contribute, please see our contributing guidelines for more information.
 
 # License
