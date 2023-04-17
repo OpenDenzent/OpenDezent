@@ -14,14 +14,20 @@ To get started with openDenzent, you'll need to have some familiarity with Ether
 * Vite: A fast and minimalist web framework for building JavaScript applications
 * MetaMask: A browser extension for interacting with Ethereum and Polygon networks
   Once you have these tools installed, you can clone the openDenzent repository and run the following commands to install the required packages:
+  
 
-Copy code <br>
-* ` npm install `<br>
+
+ ```bash
+ npm install 
+ ```
 You can then start the development server by running:
 
 
-Copy code <br>
-* `npm run dev` <br>
+Copy code
+
+```bash
+npm run dev
+ ```
 
 This will start a local development server at http://localhost:3000, where you can interact with the openDenzent UI.
 
@@ -29,13 +35,19 @@ To deploy the smart contracts to the Polygon Mumbai testnet, you'll need to crea
 
 makefile  <br>
 Copy code <br>
-* `POLYGON_MUMBAI_RPC_URL=<your_rpc_url>`<br>
-* `WALLET_PRIVATE_KEY=<your_wallet_private_key>`<br>
+
+ ```bash
+ POLYGON_MUMBAI_RPC_URL=<your_rpc_url>
+ WALLET_PRIVATE_KEY=<your_wallet_private_key>
+ ```
 You can then run the following command to compile and deploy the smart contracts:
 
 
-Copy code<br>
-* `npm run deploy:mumbai`
+Copy code
+
+ ```bash
+  npm run deploy:mumbai
+   ```
 
 # Contributing
 openDenzent is an open-source project, and contributions are welcome. If you'd like to contribute, please see our contributing guidelines for more information.
